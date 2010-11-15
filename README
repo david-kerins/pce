@@ -1,0 +1,9 @@
+This is an implementation of prioritized queries using the Google SOAP Search API. 
+
+These prioritized queries are generated from the parsing of valid prioritized constraint expressions (PCE). 
+
+Prioritized constraint expressions use two unary operators to enhance an infinitesimal logic framework to allow preferential constraints and backup constraints respectively. 
+
+The Perl CGI algorithm parses valid prioritized constraint expressions using a grammar and then generates a prioritized list of standard Google search queries. These standard Google queries are sent one at a time to Google via the Google SOAP Search API. The results of the search are returned as structured data to the user with their associated Truth value. 
+
+Google deprecated the SOAP API and so this code cannot access the Google search engine anymore.
