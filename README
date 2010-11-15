@@ -6,4 +6,6 @@ Prioritized constraint expressions use two unary operators to enhance an infinit
 
 The Perl CGI algorithm parses valid prioritized constraint expressions using a grammar and then generates a prioritized list of standard Google search queries. These standard Google queries are sent one at a time to Google via the Google SOAP Search API. The results of the search are returned as structured data to the user with their associated Truth value. 
 
+See the thesis pdf file for a complete description of this software.
+
 Google deprecated the SOAP API and so this code cannot access the Google search engine anymore.
